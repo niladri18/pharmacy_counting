@@ -23,7 +23,8 @@ No additional library is need to run this program. Input file is called `itcont.
 
 # Output 
 
-The output file, `top_cost_drug.txt` is saved in the `output` folder.
+The output file, `top_cost_drug.txt` is saved in the `output` folder. Sample tests can be found in the 
+`insight_testsuite` folder.
 
 
 
