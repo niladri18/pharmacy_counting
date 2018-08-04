@@ -19,7 +19,7 @@ drug name and the cost of the medication.
 
 I have used a binary search tree (BST) to store the drugnames, where the primary key of comparison is 
 the total cost. The unique precribers of a particular drug are saved in a python dictionary. 
-No additional library is need to run this program. Input file is called `itcont.txt`
+No additional library is needed to run this program. Input file is called `itcont.txt`
 
 # Output 
 
