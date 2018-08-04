@@ -34,7 +34,7 @@ while True:
 	cost[drugname] += float(line[-1])
 
 
-print('drug_name,num_prescriber,total_cost')
+#print('drug_name,num_prescriber,total_cost')
 f1.write('drug_name,num_prescriber,total_cost\n')	
 
 	
@@ -50,7 +50,7 @@ for i in drug_list:
 sorted_drug_list = T.inorder()	
 for r in sorted_drug_list:
 	x = r[0]
-	print(*[r[0],len(user[x]),int(r[1])],sep = ',')
+	#print(*[r[0],len(user[x]),int(r[1])],sep = ',')
 	ans = r[0]+','+ str(len(user[x])) + ','+str(int(r[1]))+ '\n'
 	f1.write(ans)
 #'''
@@ -58,6 +58,6 @@ for r in sorted_drug_list:
 f0.close()
 f1.close()
 end_time = time.time()
-print('')
+#print('')
 print('Runtime:',str(end_time - start_time)+'s')
 
