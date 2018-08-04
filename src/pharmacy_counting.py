@@ -51,7 +51,7 @@ sorted_drug_list = T.inorder()
 for r in sorted_drug_list:
 	x = r[0]
 	#print(*[r[0],len(user[x]),int(r[1])],sep = ',')
-	ans = r[0]+','+ str(len(user[x])) + ','+str(int(r[1]))+ '\n'
+	ans = r[0]+','+ str(len(user[x])) + ','+str(round(r[1]))+ '\n'
 	f1.write(ans)
 #'''
 
