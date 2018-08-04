@@ -1,4 +1,4 @@
-# Pharmacy couting problem 
+# Pharmacy counting  
 1. [Problem](README.md#problem)
 2. [Method](README.md#method)
 3. [Output](README.md#output)
