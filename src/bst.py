@@ -1,4 +1,9 @@
+#! Binary search tree class
 import sys
+
+__author__ = "Niladri Gomes"
+__email__ = "nldrgomeser48@gmail.com"
+__date__ = "Aug-03-2018"
 
 class Node:
 	def __init__(self,data):
@@ -48,14 +53,4 @@ class BST:
 			yield from self.item.inorder()
 
 			
-'''
-#FOR TESTING			
-x = [('P',5),('P',19),('Q',8),('R',1),('S',34),('M',5),('S',6),('U',18)]
-T = BST()
-for i in x:
-	T.add(i)
-	
-x = T.inorder()
-for i in x:
-	print(i)
-'''
+
